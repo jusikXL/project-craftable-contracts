@@ -10,6 +10,11 @@ const config: HardhatUserConfig = {
       accounts: [process.env.PRIVATE_KEY!],
       chainId: 5001,
     },
+    alfajores: {
+      url: "https://alfajores-forno.celo-testnet.org",
+      accounts: [process.env.PRIVATE_KEY!],
+      chainId: 44787,
+    },
   },
 };
 

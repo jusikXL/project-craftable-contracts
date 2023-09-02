@@ -12,6 +12,14 @@ npx hardhat node
 npx hardhat run scripts/deploy.ts
 ```
 
+To deploy to Mantle Testnet
+
 ```shell
 npx hardhat run scripts/deploy.ts --network mantle_testnet
+```
+
+To deploy to Celo Testnet
+
+```shell
+npx hardhat run scripts/deploy.ts --network alfajores
 ```
